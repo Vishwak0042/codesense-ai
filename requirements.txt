@@ -1,31 +1,4 @@
-# ─────────────────────────────────────────────────────
-# CodeSense AI — Requirements
-# Install with: pip install -r requirements.txt
-# ─────────────────────────────────────────────────────
-
-# ── Core UI ──────────────────────────────────────────
 streamlit>=1.35.0
-
-# ── LLM Integration ──────────────────────────────────
-openai>=1.30.0              # OpenAI GPT models (GPT-4o, GPT-4o-mini, etc.)
-
-# ── Embeddings (local, free) ─────────────────────────
-sentence-transformers>=2.7.0   # all-MiniLM-L6-v2 for local embeddings
-torch>=2.2.0                   # Required by sentence-transformers
-
-# ── Vector Database ───────────────────────────────────
-faiss-cpu>=1.8.0           # FAISS for fast similarity search (CPU version)
-
-# ── Numerical Computing ───────────────────────────────
+openai>=1.30.0
 numpy>=1.26.0
-
-# ── Utilities ─────────────────────────────────────────
-python-dotenv>=1.0.0       # Optional: load API keys from .env file
-
-# ─────────────────────────────────────────────────────
-# OPTIONAL (lighter install — skips local embeddings)
-# ─────────────────────────────────────────────────────
-# If you prefer a minimal install without local models,
-# comment out sentence-transformers and torch above.
-# The app will fall back to hash-based embeddings (no GPU needed).
-# ─────────────────────────────────────────────────────
+faiss-cpu>=1.8.0
