@@ -1,5 +1,14 @@
 # ⬡ CodeSense AI — Code Explainer
+> 🧠 AI-Powered Code Understanding System using LLM + RAG Pipeline
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.35-red)
+![Groq](https://img.shields.io/badge/LLM-Groq-orange)
+![FAISS](https://img.shields.io/badge/Vector_DB-FAISS-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 ### LLM + RAG Powered Code Understanding System
+
 > Academic Research Project · Streamlit + OpenAI + FAISS
 
 ---
