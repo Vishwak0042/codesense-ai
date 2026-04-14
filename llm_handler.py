@@ -9,8 +9,8 @@ from typing import List, Dict
 # HARDCODE YOUR GROQ API KEY HERE
 # Get a free key at: https://console.groq.com
 # ─────────────────────────────────────────────
-GROQ_API_KEY = "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"   # <-- paste your gsk_... key here
-GROQ_MODEL   = "llama-3.3-70b-versatile"  # best free Groq model
+GROQ_API_KEY = "YOUR_GROQ_API_KEY_HERE"
+GROQ_MODEL   = "llama-3.3-70b-versatile"
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
 
 # ─────────────────────────────────────────────
